@@ -1,0 +1,29 @@
+{
+  "name": "RetroMarkup",
+  "version": "1.0.0",
+  "description": "Portfolio template based on Bootstrap 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "template",
+    "retro",
+    "portfolio"
+  ],
+  "author": "TheBeatCoder",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-concat-css": "^2.1.0",
+    "gulp-copy": "0.0.2",
+    "gulp-htmlmin": "^1.1.0",
+    "gulp-livereload": "^3.7.0",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-uglify": "^1.1.0",
+    "gulp-uglifycss": "^1.0.4",
+    "gulp-util": "^3.0.3",
+    "tiny-lr": "^0.1.5"
+  }
+}

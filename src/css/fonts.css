@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Bazar';
+    src: url('../fonts/Bazar.eot?#iefix') format('../embedded-opentype'),  url('../fonts/Bazar.woff') format('woff'),
+    url('../fonts/Bazar.ttf')  format('truetype'), url('../fonts/Bazar.svg#Bazar') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

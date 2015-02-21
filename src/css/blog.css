@@ -1,0 +1,64 @@
+.blog-wrapper {
+    background: url(../img/blog-noise.png);
+}
+
+.blog a h4 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    color: #383a3c;
+    display: block;
+}
+
+.blog .responses, .blog .date, .blog .tag {
+    color: #383a3c;
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    font-size: 0.875em;
+    font-weight: 700;
+}
+
+.blog .responses {
+    float: right;
+}
+
+.blog .tag:before {
+    content: "// ";
+}
+
+.blog .news p {
+    font-family: "Roboto Slab", serif;
+    color: #383a3c;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.blog p .more:before {
+    content: "(";
+}
+
+.blog p .more {
+    font-weight: 700;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.blog p .more:hover {
+    text-decoration: underline;
+}
+
+
+.blog p .more:after {
+    content: "...)";
+}
+
+.blog article {
+    margin-bottom: 4em;
+}
+
+.blog .news img {
+    border: 0.5em solid #fff;
+    border-radius: 0.4em;
+    box-shadow: 1px 1px 5px 0 rgba(133,133,133,1);
+    width: 100%;
+}

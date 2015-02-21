@@ -1,0 +1,103 @@
+.portfolio-wrapper {
+    background: url(../img/portfolio-noise.png);
+}
+
+.portfolio .filter {
+    text-align: center;
+}
+
+.portfolio .filter, .portfolio .filter a {
+    font-family: "Roboto Slab", serif;
+    color: #383a3c;
+    font-weight: 700;
+}
+
+.portfolio ul {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.portfolio ul li {
+    display: inline-block;
+}
+
+.portfolio .filter-tag-wrapper {
+    padding: 7px;
+    border-radius: 0.25em;
+    display: inline-block;
+    height: 33px;
+    background-color: #fbfaf6;
+}
+
+.portfolio .tag-tail {
+    height: 33px;
+    width: 27px;
+    position: relative;
+    top: 11px;
+    left: 9px;
+}
+
+.portfolio .tag-tail polygon {
+    fill: #fbfaf6;
+}
+
+.portfolio .tag-tail ellipse {
+    fill: #959ca3;
+}
+
+.portfolio .icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 4.5em;
+
+}
+
+.portfolio .icon ellipse {
+    fill: #fbfaf6;
+}
+
+.portfolio .work-list {
+    padding-top: 1em;
+}
+
+.portfolio .work {
+    margin-bottom: 2em;
+}
+
+.portfolio .work-wrapper {
+    height: 12.9em;
+    box-shadow: 1px 1px 5px 0 rgba(133,133,133,1);
+}
+
+.portfolio .work .photo {
+    border: 0.25em solid #fbfaf6;
+    border-radius: 0.2em 0.2em 0 0;
+
+}
+
+.portfolio .work .photo img {
+    width: 100%;
+}
+
+.portfolio .work .description {
+    background-color: #fbfaf6;
+    padding: 1em 0 0.5em;
+    position: relative;
+    bottom: 0.625em;
+    height: 4em;
+    border-radius: 0 0 0.2em 0.2em;
+}
+
+.portfolio .work .title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #383a3c;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+

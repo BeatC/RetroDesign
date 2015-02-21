@@ -1,0 +1,62 @@
+.about-wrapper {
+    background: url(../img/about-noise.png);
+}
+
+.hobby .about-hr {
+    display: block;
+    margin: 1em auto;
+}
+
+.hobby .hobby-icon {
+    width: 141px;
+    height: 141px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobby .hobby-icon .outer {
+    fill: #d45244;
+    cursor: pointer;
+    transition: fill 0.3s ease-in;
+}
+
+.hobby .hobby-icon g:hover .inner, .hobby .hobby-icon g:hover .outer {
+    fill: #a94439;
+    transition: fill 0.3s ease-in;
+}
+
+.hobby .hobby-icon .inner {
+    fill: #d45244;
+    stroke-width: 4px;
+    stroke: #fff;
+    cursor: pointer;
+    transition: fill 0.3s ease-in;
+}
+
+
+.hobby .title h2 {
+    font-family: 'Bazar', serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #383a3c;
+}
+
+.hobby .title h4 {
+    font-family: "Roboto Slab", serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #383a3c;
+}
+
+.about p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    color: #383a3c;
+    text-align: justify;
+}
+
+.hobby-list {
+    margin-bottom: 6em;
+}

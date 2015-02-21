@@ -1,0 +1,108 @@
+footer {
+    background: url(../img/footer-noise.png);
+}
+
+footer h1 {
+    color: #f6edd8;
+    text-shadow: 2px 2px 0 rgba(72, 74, 77, 1), 4px 4px 0 rgba(212, 206, 191, 1);
+}
+
+footer h2 {
+    font-size: 1.3125em;
+    text-align: center;
+    font-family: 'Bazar', serif;
+    color: #f6edd8;
+    text-transform: uppercase;
+}
+
+footer h3 {
+    color: #f6edd8;
+}
+
+footer .top-hr span {
+    color: #f6edd8;
+}
+
+footer .top-hr .hr rect {
+    fill: #f6edd8;
+}
+
+footer form {
+    width: 37em;
+    margin: 0 auto;
+}
+
+footer .footer-input {
+    margin: 0.625em auto;
+}
+
+footer input.form-control {
+    height: 2.7em;
+}
+
+footer input.form-control, footer textarea.form-control {
+    width: 37em;
+    font-family: "Roboto Slab", serif;
+}
+
+footer button.form-submit {
+    color: #383a3c;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    outline: none;
+    background-color: #fcfaf7;
+    transition: background-color 0.3s ease-in;
+}
+
+footer button.form-submit:hover {
+    background-color: #dedcd7;
+    transition: background-color 0.3s ease-in;
+}
+
+footer .social-title {
+    width: 9em;
+    margin: 0 auto;
+}
+
+footer .social {
+    margin-top: 2.5em;
+}
+
+footer .social .social-hr {
+    fill: #f6edd8;
+    margin-left: 3.2em;
+    position: relative;
+    bottom: 1em;
+}
+
+footer .social-buttons {
+    list-style: none;
+    width: 25.6em;
+    padding: 0;
+    margin: 0 auto 5em;
+}
+
+footer .social-buttons li {
+    display: inline-block;
+}
+
+footer .social-buttons svg {
+    width: 60px;
+    height: 60px;
+    margin: 0 0.3em;
+}
+
+footer .social-buttons ellipse {
+    fill: #f5eee3;
+    transition: fill 0.3s ease-in;
+}
+
+footer .social-buttons svg:hover ellipse {
+    fill: #abb4c6;
+    transition: fill 0.3s ease-in;
+}
+
+footer .social-buttons ellipse.internal {
+    stroke: #383a3c;
+    stroke-width: 2px;
+}

@@ -1,0 +1,77 @@
+h1 {
+    font-size: 6.25em;
+    text-align: center;
+    text-shadow: 2px 2px 0 rgba(252, 250, 247, 1), 4px 4px 0 rgba(72, 74, 77, 1);
+    font-family: 'Bazar', serif;
+    color: #393a3a;
+    text-transform: uppercase;
+    margin-top: 0.7em;
+}
+
+h3 {
+    color: #3b3b3b;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    text-align: center;
+    margin: 0.44em auto 2em;
+}
+
+.hr {
+    height: 0.125em;
+    width: 2.1875em;
+}
+
+.top-hr {
+    width: 7.9em;
+    margin: 0 auto;
+}
+
+.older {
+    width: 6em;
+    margin: 0 auto 6em;
+}
+
+.all-hr rect {
+    fill: #383a3c;
+}
+
+.older .all-hr {
+    margin-left: 1.5em;
+    margin-bottom: 0.4em;
+    width: 2.5em;
+}
+
+
+.older h3 {
+    font-weight: 700;
+    font-size: 0.875em;
+    width: 7em;
+    margin-top: 0;
+}
+
+.older a {
+    color: #383a3c;
+}
+
+.top-hr span {
+    font-family: sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    color: #3b3b3b;
+}
+
+.top-hr .hr {
+    position: relative;
+    bottom: 0.3em;
+}
+
+.top-hr .hr rect {
+    fill: #3b3b3b;
+}
+
+strong {
+    font-weight: 700;
+}

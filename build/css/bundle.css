@@ -1,0 +1,420 @@
+.about-wrapper {
+  background: url("../img/about-noise.png");
+}
+
+.hobby .about-hr {
+  display: block;
+  margin: 1em auto;
+}
+
+.hobby .hobby-icon {
+  width: 141px;
+  height: 141px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hobby .hobby-icon .outer {
+  fill: #d45244;
+  cursor: pointer;
+  transition: fill 0.3s ease-in;
+}
+
+.hobby .hobby-icon g:hover .inner,
+.hobby .hobby-icon g:hover .outer {
+  fill: #a94439;
+  transition: fill 0.3s ease-in;
+}
+
+.hobby .hobby-icon .inner {
+  fill: #d45244;
+  stroke-width: 4px;
+  stroke: #fff;
+  cursor: pointer;
+  transition: fill 0.3s ease-in;
+}
+
+.hobby .title h2 {
+  font-family: 'Bazar', serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #383a3c;
+}
+
+.hobby .title h4 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #383a3c;
+}
+
+.about p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #383a3c;
+  text-align: justify;
+}
+
+.hobby-list {
+  margin-bottom: 6em;
+}
+.blog-wrapper {
+  background: url("../img/blog-noise.png");
+}
+
+.blog a h4 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  color: #383a3c;
+  display: block;
+}
+
+.blog .responses,
+.blog .date,
+.blog .tag {
+  color: #383a3c;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  font-size: 0.875em;
+  font-weight: 700;
+}
+
+.blog .responses {
+  float: right;
+}
+
+.blog .tag:before {
+  content: "// ";
+}
+
+.blog .news p {
+  font-family: "Roboto Slab", serif;
+  color: #383a3c;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.blog p .more:before {
+  content: "(";
+}
+
+.blog p .more {
+  font-weight: 700;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.blog p .more:hover {
+  text-decoration: underline;
+}
+
+.blog p .more:after {
+  content: "...)";
+}
+
+.blog article {
+  margin-bottom: 4em;
+}
+
+.blog .news img {
+  border: 0.5em solid #fff;
+  border-radius: 0.4em;
+  box-shadow: 1px 1px 5px 0 rgba(133,133,133,1);
+  width: 100%;
+}
+@font-face {
+  font-family: 'Bazar';
+  src: url("../fonts/Bazar.eot?#iefix") format('../embedded-opentype'),  url("../fonts/Bazar.woff") format('woff'),
+    url("../fonts/Bazar.ttf")  format('truetype'), url("../fonts/Bazar.svg#Bazar") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+footer {
+  background: url("../img/footer-noise.png");
+}
+
+footer h1 {
+  color: #f6edd8;
+  text-shadow: 2px 2px 0 rgba(72, 74, 77, 1), 4px 4px 0 rgba(212, 206, 191, 1);
+}
+
+footer h2 {
+  font-size: 1.3125em;
+  text-align: center;
+  font-family: 'Bazar', serif;
+  color: #f6edd8;
+  text-transform: uppercase;
+}
+
+footer h3 {
+  color: #f6edd8;
+}
+
+footer .top-hr span {
+  color: #f6edd8;
+}
+
+footer .top-hr .hr rect {
+  fill: #f6edd8;
+}
+
+footer form {
+  width: 37em;
+  margin: 0 auto;
+}
+
+footer .footer-input {
+  margin: 0.625em auto;
+}
+
+footer input.form-control {
+  height: 2.7em;
+}
+
+footer input.form-control,
+footer textarea.form-control {
+  width: 37em;
+  font-family: "Roboto Slab", serif;
+}
+
+footer button.form-submit {
+  color: #383a3c;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  outline: none;
+  background-color: #fcfaf7;
+  transition: background-color 0.3s ease-in;
+}
+
+footer button.form-submit:hover {
+  background-color: #dedcd7;
+  transition: background-color 0.3s ease-in;
+}
+
+footer .social-title {
+  width: 9em;
+  margin: 0 auto;
+}
+
+footer .social {
+  margin-top: 2.5em;
+}
+
+footer .social .social-hr {
+  fill: #f6edd8;
+  margin-left: 3.2em;
+  position: relative;
+  bottom: 1em;
+}
+
+footer .social-buttons {
+  list-style: none;
+  width: 25.6em;
+  padding: 0;
+  margin: 0 auto 5em;
+}
+
+footer .social-buttons li {
+  display: inline-block;
+}
+
+footer .social-buttons svg {
+  width: 60px;
+  height: 60px;
+  margin: 0 0.3em;
+}
+
+footer .social-buttons ellipse {
+  fill: #f5eee3;
+  transition: fill 0.3s ease-in;
+}
+
+footer .social-buttons svg:hover ellipse {
+  fill: #abb4c6;
+  transition: fill 0.3s ease-in;
+}
+
+footer .social-buttons ellipse.internal {
+  stroke: #383a3c;
+  stroke-width: 2px;
+}
+h1 {
+  font-size: 6.25em;
+  text-align: center;
+  text-shadow: 2px 2px 0 rgba(252, 250, 247, 1), 4px 4px 0 rgba(72, 74, 77, 1);
+  font-family: 'Bazar', serif;
+  color: #393a3a;
+  text-transform: uppercase;
+  margin-top: 0.7em;
+}
+
+h3 {
+  color: #3b3b3b;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.125em;
+  text-align: center;
+  margin: 0.44em auto 2em;
+}
+
+.hr {
+  height: 0.125em;
+  width: 2.1875em;
+}
+
+.top-hr {
+  width: 7.9em;
+  margin: 0 auto;
+}
+
+.older {
+  width: 6em;
+  margin: 0 auto 6em;
+}
+
+.all-hr rect {
+  fill: #383a3c;
+}
+
+.older .all-hr {
+  margin-left: 1.5em;
+  margin-bottom: 0.4em;
+  width: 2.5em;
+}
+
+.older h3 {
+  font-weight: 700;
+  font-size: 0.875em;
+  width: 7em;
+  margin-top: 0;
+}
+
+.older a {
+  color: #383a3c;
+}
+
+.top-hr span {
+  font-family: sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  color: #3b3b3b;
+}
+
+.top-hr .hr {
+  position: relative;
+  bottom: 0.3em;
+}
+
+.top-hr .hr rect {
+  fill: #3b3b3b;
+}
+
+strong {
+  font-weight: 700;
+}
+.portfolio-wrapper {
+  background: url("../img/portfolio-noise.png");
+}
+
+.portfolio .filter {
+  text-align: center;
+}
+
+.portfolio .filter,
+.portfolio .filter a {
+  font-family: "Roboto Slab", serif;
+  color: #383a3c;
+  font-weight: 700;
+}
+
+.portfolio ul {
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.portfolio ul li {
+  display: inline-block;
+}
+
+.portfolio .filter-tag-wrapper {
+  padding: 7px;
+  border-radius: 0.25em;
+  display: inline-block;
+  height: 33px;
+  background-color: #fbfaf6;
+}
+
+.portfolio .tag-tail {
+  height: 33px;
+  width: 27px;
+  position: relative;
+  top: 11px;
+  left: 9px;
+}
+
+.portfolio .tag-tail polygon {
+  fill: #fbfaf6;
+}
+
+.portfolio .tag-tail ellipse {
+  fill: #959ca3;
+}
+
+.portfolio .icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  bottom: 4.5em;
+}
+
+.portfolio .icon ellipse {
+  fill: #fbfaf6;
+}
+
+.portfolio .work-list {
+  padding-top: 1em;
+}
+
+.portfolio .work {
+  margin-bottom: 2em;
+}
+
+.portfolio .work-wrapper {
+  height: 12.9em;
+  box-shadow: 1px 1px 5px 0 rgba(133,133,133,1);
+}
+
+.portfolio .work .photo {
+  border: 0.25em solid #fbfaf6;
+  border-radius: 0.2em 0.2em 0 0;
+}
+
+.portfolio .work .photo img {
+  width: 100%;
+}
+
+.portfolio .work .description {
+  background-color: #fbfaf6;
+  padding: 1em 0 0.5em;
+  position: relative;
+  bottom: 0.625em;
+  height: 4em;
+  border-radius: 0 0 0.2em 0.2em;
+}
+
+.portfolio .work .title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #383a3c;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 0.9em;
+}
