@@ -1,0 +1,16 @@
+.navbar .navbar-brand {
+    display: block;
+    padding: 0.25em;
+    height: 7em;
+}
+
+.navbar a {
+    font-family: "Bazar";
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #f9ebd9;
+}
+
+.navbar .navbar-brand img {
+    width: 100%;
+}

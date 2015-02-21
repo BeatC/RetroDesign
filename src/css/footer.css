@@ -106,3 +106,7 @@ footer .social-buttons ellipse.internal {
     stroke: #383a3c;
     stroke-width: 2px;
 }
+
+footer .twitter, footer .facebook, footer .linkedin, footer .github, footer .youtube {
+    fill: #383a3c;
+}

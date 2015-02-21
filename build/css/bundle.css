@@ -15,6 +15,12 @@
   margin-right: auto;
 }
 
+.hobby .hobby-icon .tv,
+.hobby .hobby-icon .vinyl {
+  fill: #fff;
+  cursor: pointer;
+}
+
 .hobby .hobby-icon .outer {
   fill: #d45244;
   cursor: pointer;
@@ -241,6 +247,14 @@ footer .social-buttons ellipse.internal {
   stroke: #383a3c;
   stroke-width: 2px;
 }
+
+footer .twitter,
+footer .facebook,
+footer .linkedin,
+footer .github,
+footer .youtube {
+  fill: #383a3c;
+}
 h1 {
   font-size: 6.25em;
   text-align: center;
@@ -316,6 +330,22 @@ h3 {
 
 strong {
   font-weight: 700;
+}
+.navbar .navbar-brand {
+  display: block;
+  padding: 0.25em;
+  height: 7em;
+}
+
+.navbar a {
+  font-family: "Bazar";
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #f9ebd9;
+}
+
+.navbar .navbar-brand img {
+  width: 100%;
 }
 .portfolio-wrapper {
   background: url("../img/portfolio-noise.png");

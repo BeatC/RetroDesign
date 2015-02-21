@@ -15,6 +15,11 @@
     margin-right: auto;
 }
 
+.hobby .hobby-icon .tv, .hobby .hobby-icon .vinyl {
+    fill: #fff;
+    cursor: pointer;
+}
+
 .hobby .hobby-icon .outer {
     fill: #d45244;
     cursor: pointer;
